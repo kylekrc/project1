@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "api/login.php", "use": "@now/php" },
+      
+      { "src": "api/admin/scripts/flot/common.js", "use": "@now/static" },
+      { "src": "api/admin/scripts/flot/jquery-1.9.1.min.js", "use": "@now/static" },
+      { "src": "api/admin/scripts/flot/jquery-ui-1.10.1.custom.min.js", "use": "@now/static" },
+      
+      { "src": "api/student/scripts/flot/common.js", "use": "@now/static" },
+      { "src": "api/student/scripts/flot/jquery-1.9.1.min.js", "use": "@now/static" },
+      { "src": "api/student/scripts/flot/jquery-ui-1.10.1.custom.min.js", "use": "@now/static" },
+      { "src": "api/scripts/datatables/jquery.dataTables.js", "use": "@now/static" }
+    ]
+  }
+  
