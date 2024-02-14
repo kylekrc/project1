@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; 
+   border:none;
+   text-decoration: none;
+}
+
+
+body {
+    background-color: #883838;
+    /* background-image: url('images/red.png'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+form {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    width: 33.33%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.dob-group {
+    display: flex;
+}
+
+.dob {
+    width: 183.5px;
+}
+
+button {
+    background-color: #ED2939;
+    box-shadow: 0 4px #800000;
+    /* font-family: 20px; */
+    font-size: 15px;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #B22222;
+    box-shadow: 0 2px #CD5C5C;
+}
+
+.form-links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.form-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.form-links a:hover {
+    color: #4caf50;
+}
+
+form .error-msg{
+    margin:10px 0;
+    display: block;
+    background: rgba(220, 20, 60, 0.858);
+    color:#fff;
+    border-radius: 5px;
+    font-size: 15px;
+    padding:10px;
+}
+
+form p{
+    margin-top: 15px;
+    font-size: 15px;
+    color:#333;
+    text-align: center;
+
+}
+
+.sex-op{
+    display: flex;
+    align-items: left;
+}
+
+.log{
+    margin-top: 15px;
+    color: crimson;
+    text-decoration: underline;
+}
+
+.bth{
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+    color: green;
+
+    text-decoration: none;
+
+}
+
+.log:hover {
+    text-decoration: none;
+    color: crimson;
+}
+
+.bth:hover {
+    text-decoration: underline;
+}
